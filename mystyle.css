@@ -1,0 +1,178 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+  color: lightslategrey;
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: center;
+
+}
+#head {
+  
+  display: flex;
+  min-height: 85px;
+  color: white;
+  text-align: left;
+  margin-top:1%;
+  background-color: blue;
+  opacity: .4;
+  
+  
+}
+.shadow {
+  position: absolute;
+  background-color: blue;
+  z-index: 1;
+  
+}
+.shadow1{
+ font-size: 15px;
+  margin-left: 5px;
+  position: absolute;
+  background-color: rgb(8, 123, 168);
+  color: white;
+  z-index: -1;
+  margin-top:-60px;
+
+
+}
+#profilepic {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 40vh;
+  background-color: slategray;
+  margin-top:5%;
+}
+.image {
+  width: 35%;
+  display: grid;
+  grid-template-rows: 30vh;
+  background-image: url("selfie.jpg");
+  background-repeat: no-repeat; 
+  background-image: cover;
+  background-position: center;
+  background-size: 100% 100%;
+  width: 25%;
+  border-radius: 50%;
+  padding: 10px;  
+  border: 2px solid white;
+  float: left;
+  margin-left: 1.4%;
+  margin-top: 1.5%;
+    
+  
+  }
+
+.bio {
+  float: right;
+  width:50%;
+  background-color: lightblue;
+  font-weight: bold;
+  color: black;
+  border-top:3px solid gray;
+}
+
+/*#favorites {
+  display: grid;
+  text-decoration: underline;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  
+}*/
+
+.music h2{
+  text-decoration: underline;
+}
+.tvshow h2 {
+  text-decoration: underline;
+}
+.movies h2 {
+  text-decoration: underline;
+}
+
+
+.favoritewrap {
+ 
+  display: grid;
+  grid-template-columns: .5fr .5fr .5fr;
+  margin-top: 10%;
+  background-color:gray;
+  grid-gap: 10px;
+  margin: 0;
+  margin-top: 5%;
+  color:white;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+
+}
+#favorites ul {
+  
+  list-style: none;
+  margin: 10;
+  padding: 10;
+  margin-top: 5%;
+  display: grid;
+  background-color: rgb(8, 123, 168);
+  border: 2px solid black;
+  font-size: 24px;
+}
+
+
+
+#favorites h2 {
+  background-color: blue;
+  
+}
+.socialmedia {
+  position: relative;
+  z-index: 2;
+  
+  width: 100%;
+  display: flex;
+  
+  justify-content: center;
+  margin-top: 8%;
+  background-color: black;
+  
+}
+
+.fa {
+  height:20px;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  
+}
+
+.fa-twitter {
+  position: relative;
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.bio p{
+  margin: 1em;
+}
+#head h1 {
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
